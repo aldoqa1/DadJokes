@@ -1,0 +1,73 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: rgba(78, 60, 216, 0.945);
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.btn {
+  transition: all 0.3s ease;
+  padding: 2rem 3rem;
+  color: white;
+  background-color: rgb(235, 217, 193);
+  text-align: center;
+  border: none;
+  border-radius: 1rem;
+  color: black;
+  margin: 2rem auto;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(120%);
+}
+.btn:hover {
+  background-color: rgb(178, 134, 220);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-jokes {
+  width: min(90%, 40rem);
+  background-color: white;
+  font-family: "Quicrgb(226, 225, 225)", sans-serif;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-jokes h2 {
+  color: black;
+  letter-spacing: 0.4rem;
+  text-align: center;
+}
+
+.jokes {
+  background-color: rgb(169, 207, 208);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+#joke {
+  color: black;
+}
